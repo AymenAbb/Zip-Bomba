@@ -7,7 +7,7 @@ Be nice. Don't turn this in to your poor professors.
 ---
 ## Layerless Zip Bombs?
 
-Traditionally zip bombs such as 42.zip rely on zipping things throughout multiple layers. Antiviruses evolved to learn to unpack only the first 3 or so layers then stop, which defeats the main use of the bomb. A researcher by the name of David Fifield found a way to make it so you'd just need to unpack the first layer to unleash everything that the zip bomb has. I won't go indepth about how it works here, but I do highly reccomend you [visit his site](https://www.bamsoftware.com/hacks/zipbomb/) and [watch his showcase](https://www.bamsoftware.com/talks/woot19-zipbomb/) to learn more.
+Traditionally zip bombs such as 42.zip rely on zipping things throughout multiple layers. Antiviruses evolved to learn to unpack only the first 3 or so layers then stop, which defeats the main use of the bomb. A researcher by the name of David Fifield found a way to make it so you'd just need to unpack the first layer to unleash everything that the zip bomb has. I won't go indepth about how it works here, but I do highly reccomend you [visit his site](https://www.bamsoftware.com/hacks/zipbomb/) and [watch his showcase](https://www.bamsoftware.com/talks/woot19-zipbomb/) to learn more. You can also find download links there, as I cannot upload it here.
 
 ## Story
 July of 2020 I saw that the way Windows Defender deals with a layerless zip bomb is to actually unzip it first. This is pretty hilarious, especially since the research showcasing this type of attack was already talked about for half a year. I decided to look into if this vulnerability still exists, and if not, how I can defeat it.
